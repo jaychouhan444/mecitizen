@@ -31,3 +31,18 @@
 2018-11-12 01:24:25 debug: Debugging info
 2018-11-12 01:24:33 info: fuck me hard..!!
 2018-11-12 01:24:33 info: {"firstname":"jay babu","surname":"chouhan","mobile":"8082242523","email":"jay@gmail.coM","dob":"10-05-1996","gender":"MALE","password":"HELLO"}
+2018-11-17 00:54:31 info: Hello world
+2018-11-17 00:54:31 warn: Warning message
+2018-11-17 00:54:31 debug: Debugging info
+2018-11-17 00:55:29 info: Hello world
+2018-11-17 00:55:29 warn: Warning message
+2018-11-17 00:55:29 debug: Debugging info
+2018-11-17 00:55:45 info: Hello world
+2018-11-17 00:55:45 warn: Warning message
+2018-11-17 00:55:45 debug: Debugging info
+2018-11-17 00:57:36 info: Hello world
+2018-11-17 00:57:36 warn: Warning message
+2018-11-17 00:57:36 debug: Debugging info
+2018-11-17 00:58:11 info: Hello world
+2018-11-17 00:58:11 warn: Warning message
+2018-11-17 00:58:11 debug: Debugging info
