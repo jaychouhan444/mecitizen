@@ -45,8 +45,8 @@ router.use(function (req, res, next) {
 //    console.log( req.body.surname)
 //    console.log( req.body.mobile)
 //    console.log( req.body.email)
-//     console.log(req.body.dob)
 //     console.log(req.body.gender)
+//     console.log(req.body.dob)
 //     console.log(req.body.password)
    
    
