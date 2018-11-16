@@ -31,6 +31,7 @@
 2018-11-12 01:24:25 debug: Debugging info
 2018-11-12 01:24:33 info: fuck me hard..!!
 2018-11-12 01:24:33 info: {"firstname":"jay babu","surname":"chouhan","mobile":"8082242523","email":"jay@gmail.coM","dob":"10-05-1996","gender":"MALE","password":"HELLO"}
+<<<<<<< HEAD
 2018-11-17 00:54:31 info: Hello world
 2018-11-17 00:54:31 warn: Warning message
 2018-11-17 00:54:31 debug: Debugging info
@@ -46,3 +47,20 @@
 2018-11-17 00:58:11 info: Hello world
 2018-11-17 00:58:11 warn: Warning message
 2018-11-17 00:58:11 debug: Debugging info
+=======
+2018-11-17 01:47:51 info: Hello world
+2018-11-17 01:47:51 warn: Warning message
+2018-11-17 01:47:51 debug: Debugging info
+2018-11-17 01:53:23 info: Hello world
+2018-11-17 01:53:23 warn: Warning message
+2018-11-17 01:53:23 debug: Debugging info
+2018-11-17 01:54:57 info: Hello world
+2018-11-17 01:54:57 warn: Warning message
+2018-11-17 01:54:57 debug: Debugging info
+2018-11-17 01:57:28 info: Hello world
+2018-11-17 01:57:28 warn: Warning message
+2018-11-17 01:57:28 debug: Debugging info
+2018-11-17 02:00:36 info: Hello world
+2018-11-17 02:00:36 warn: Warning message
+2018-11-17 02:00:36 debug: Debugging info
+>>>>>>> swaggerAbc

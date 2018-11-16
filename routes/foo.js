@@ -9,6 +9,32 @@ const controller = require('../handlers/registrationHandler');
 //   res.send('this is the index for foo')
 // })
 router.route('/products').post(controller.insertdata)
+//=============Main
+/**
+ * @swagger
+ * /foo/productsfind:
+ *    get:
+ *      description: This should return all users
+ */
+//===========
+
+
+
+/**
+ * @swagger
+ * /foo/productsfind:
+ *   get:
+ *     tags:
+ *       - users
+ *     description: Returns all users
+ *     produces:
+ *       - application/json
+ *     responses:
+ *       200:
+ *         description: An array of users
+ *         schema:
+ *           $ref: '#/definitions/users'
+ */
 router.route('/productsfind').get(controller.find)
 // router.route('/products').post(function (req, res) {
 //     console.log(  req.body.firstname)

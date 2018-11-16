@@ -2,9 +2,11 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const dbconn = require('./utils/dbconn');
 const userSchema = require('./schema/userSchema');
-const swaggerJSDoc = require('swagger-jsdoc');
+const swaggerDoc = require('./swaggerui');
 const logger = require('./utils/logger');
+const foo = require('../mecitizen copy/routes/foo');
   
+
   logger.info('Hello world');
   logger.warn('Warning message');
   logger.debug('Debugging info');
@@ -15,6 +17,9 @@ const logger = require('./utils/logger');
 
 //Initializing my express app
 const app = express();
+// foo(app);
+swaggerDoc(app);
+
 // swagger definition
 
 // configure app to use bodyParser()
