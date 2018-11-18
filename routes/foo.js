@@ -32,16 +32,19 @@ const controller = require('../handlers/registrationHandler');
  *     description: Creates a new user
  *     produces:
  *       - application/json
- *     parameters:
- *       - name:"body"
- *         description:user object
- *         in:body
- *         required:true
- *         schema:
- *           $ref:'#/definitions/user'
  *     responses:
  *       200:
- *         description: Successfully created
+ *         description: An array of users
+ *         schema:
+ *           $ref: '#/definitions/users'
+ *     parameters:
+ *     - in: "body"
+ *       name: "body"
+ *       description: "This api will be used to create user / Register user"
+ *       required: true
+ *       schema:
+ *         $ref: "#/definitions/users"
+ * 
  */
 router.route('/products').post(controller.insertdata)
 //=============Main
