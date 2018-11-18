@@ -33,12 +33,12 @@ const controller = require('../handlers/registrationHandler');
  *     produces:
  *       - application/json
  *     parameters:
- *       - name:
- *         description: user object
- *         in: body
- *         required: true
+ *       - name:"body"
+ *         description:user object
+ *         in:body
+ *         required:true
  *         schema:
- *           $ref: '#/definitions/user'
+ *           $ref:'#/definitions/user'
  *     responses:
  *       200:
  *         description: Successfully created
