@@ -143,3 +143,30 @@
 2018-11-19 01:50:55 debug: Debugging info
 2018-11-19 01:51:20 info: fuck me hard..!!
 2018-11-19 01:51:20 info: {"firstname":"string","surname":"string","mobile":0,"email":"string","dob":"string","gender":"string","password":"string"}
+2018-11-19 01:56:28 info: Hello world
+2018-11-19 01:56:28 warn: Warning message
+2018-11-19 01:56:28 debug: Debugging info
+2018-11-19 02:14:29 info: Hello world
+2018-11-19 02:14:29 warn: Warning message
+2018-11-19 02:14:29 debug: Debugging info
+2018-11-19 02:14:47 info: fuck me hard..!!
+2018-11-19 02:14:47 info: {"firstname":"dhruv","surname":"parekh","mobile":2,"email":"dhruvdp@gmail.com","dob":"10/12/1996","gender":"male","password":"dhruvdp"}
+2018-11-19 02:16:54 info: Hello world
+2018-11-19 02:16:54 warn: Warning message
+2018-11-19 02:16:54 debug: Debugging info
+2018-11-19 02:17:07 info: fuck me hard..!!
+2018-11-19 02:17:07 info: {"firstname":"dhruv","surname":"parekh","mobile":22222,"email":"dhruvdp@gmail.com","dob":"10/12/1996","gender":"male","password":"dhruvdp"}
+2018-11-19 02:17:26 info: fuck me hard..!!
+2018-11-19 02:17:26 info: {"firstname":"dhruv","surname":"parekh","mobile":2222222222,"email":"dhruvdp@gmail.com","dob":"10/12/1996","gender":"male","password":"dhruvdp"}
+2018-11-19 02:20:52 info: Hello world
+2018-11-19 02:20:52 warn: Warning message
+2018-11-19 02:20:52 debug: Debugging info
+2018-11-19 02:21:11 info: fuck me hard..!!
+2018-11-19 02:21:11 info: {"firstname":"dhruv","surname":"parekh","mobile":2222222222,"email":"dhruvdp@gmail.com","dob":"10/12/1996","gender":"male","password":"dhruvdp"}
+2018-11-19 02:21:21 info: fuck me hard..!!
+2018-11-19 02:21:21 info: {"firstname":"dhruv","surname":"parekh","mobile":22222222,"email":"dhruvdp@gmail.com","dob":"10/12/1996","gender":"male","password":"dhruvdp"}
+2018-11-19 02:50:32 info: Hello world
+2018-11-19 02:50:32 warn: Warning message
+2018-11-19 02:50:32 debug: Debugging info
+2018-11-19 02:50:43 debug: a
+2018-11-19 02:52:34 debug: a

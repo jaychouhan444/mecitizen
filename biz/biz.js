@@ -1,7 +1,7 @@
 const userSchema = require('../schema/userSchema');
 module.exports = {
     hello(req,res){
-        console.log('i m in business logic')
+        
           userSchema.create({
           firstname:req.body.firstname,
           surname:req.body.surname,

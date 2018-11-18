@@ -1,4 +1,4 @@
-var express = require('express')
+ var express = require('express')
 var router = express.Router()
 const userSchema = require('../schema/userSchema');
 const controller = require('../handlers/registrationHandler');
@@ -14,6 +14,8 @@ const controller = require('../handlers/registrationHandler');
  *            type: string
  *        mobile:
  *            type: number
+ *            minimum: 10
+ *            maximum: 10
  *        email:
  *            type: string
  *        dob:
@@ -47,14 +49,8 @@ const controller = require('../handlers/registrationHandler');
  * 
  */
 router.route('/products').post(controller.insertdata)
-//=============Main
-/**
- * @swagger
- * /foo/productsfind:
- *    get:
- *      description: This should return all users
- */
-//===========
+
+
 
 
 

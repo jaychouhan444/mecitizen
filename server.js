@@ -4,12 +4,12 @@ const dbconn = require('./utils/dbconn');
 const userSchema = require('./schema/userSchema');
 const swaggerDoc = require('./swaggerui');
 const logger = require('./utils/logger');
-const foo = require('../mecitizen copy/routes/foo');
+const foo = require('../mecitizen/routes/foo');
   
 
-  logger.info('Hello world');
-  logger.warn('Warning message');
-  logger.debug('Debugging info');
+//   logger.info('Hello world');
+//   logger.warn('Warning message');
+//   logger.debug('Debugging info');
 
 
 
@@ -39,43 +39,13 @@ router.get('/', function(req, res) {
 router.use(function (req, res, next) {
     // do logging 
     // do authentication 
-    console.log(req);
+    //console.log(req);
     console.log('Logging of request will be done here');
     next(); // make sure we go to the next routes and don't stop here
 });
 
 
-// router.route('/products').post(function (req, res) {
-//   console.log(  req.body.firstname)
-//    console.log( req.body.surname)
-//    console.log( req.body.mobile)
-//    console.log( req.body.email)
-//     console.log(req.body.gender)
-//     console.log(req.body.dob)
-//     console.log(req.body.password)
-   
-   
-//     userSchema.create({
-//         firstname:req.body.firstname,
-//         surname:req.body.surname,
-//         mobile:req.body.mobile,
-//         email:req.body.email,
-//         dob:req.body.dob,
-//         gender:req.body.gender,
-//         password:req.body.password
-//     },(err,doc)=>{
-//         if(err){
-//             throw err
-//         }
-//         if(doc){
-//             res.send({statuscode:200,doc,message:'Success'})
-//         }
-//         else{
-//             res.send({statuscode:201,message:'Fail'})
-//         }
-//     })
-//    //res.send({message:'Hii '+ req.body.username})
-// });
+
 app.use('/foo', router,require('./routes/foo'));
 
 // all of our routes will be prefixed with /api
